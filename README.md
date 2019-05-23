@@ -14,4 +14,5 @@ Yelp Dataset Challenge Round 12
 Challenges and solutions
 
 •	Representation of unstructured review text. Three major strategies were performed to convert text into numerical vector machine can used. First, I generated features represent text composition such as text length and number of question/exclamation marks. Secondly, term-document matrix was constructed that each text was represented by TF-IDF score, which reveal occurrence statistics. Thirdly, I trained embedding from my train data and compared its effect on classification model with the pre-trained word embedding of Word2Vec skip-gram and GloVe. Fourthly, I integrated my samples with embedding weights from feed-forward Neural-Net Language Models in TensorFlow Hub. 
+
 •	Architecture of deep neural network.  I selected LSTM, GRU, bidirectional LSTM/GRU for classification models. A series of experiments were performed to determine how model performance were dependent on layer depth and width, combination of diverse layer and dropout rate.
